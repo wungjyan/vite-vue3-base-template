@@ -1,5 +1,10 @@
-# Vue 3 + TypeScript + Vite
+# 说明
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+目前是基于 Vite5、Vue3 和 TypeScript 搭建的基础开发模板。主要做了以下配置：
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+- 集成 `eslint@9` 和 `prettier`，实现代码检查以及代码保存时自动格式化；
+- 集成 `husky` 搭配 `lint-staged`，实现代码提交前的语法检查；
+- 集成 `commitlint` 结合 `husky`，实现提交信息的检查，规范 git commit 描述信息；
+- 集成 `czg`，实现终端可视化生成 git commit 描述信息。
+
+更多的功能可以根据具体项目添加。
